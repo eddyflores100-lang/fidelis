@@ -1,0 +1,55 @@
+# AliceLabs Proprietary Audit License v1.0
+==========================================
+
+Copyright (c) 2026 AliceLabs (Eddy Flores). All rights reserved.
+
+This audit work product (the "Audit Materials") includes:
+  - The findings documented in AUDIT-REPORT.md
+  - The P0/P1/P2 prioritization framework
+  - The remediation plan described in the pull request body
+  - The cleanup diff (held private until engagement contract is signed)
+
+PERMISSIONS GRANTED:
+  - Read and review by the maintainer of hermes-labs-ai/fidelis
+  - Internal use by Hermes Labs for their own assessment of whether to
+    engage AliceLabs for the remediation
+
+RIGHTS RESERVED BY ALICELABS:
+  - The audit methodology itself (the sequence of checks, the P0/P1/P2
+    prioritization framework, the SECURITY-POSTURE structure, the
+    naming-audit CI lint pattern, the bench/_paths.py env-var fallback
+    chain) remains the intellectual property of AliceLabs and may not
+    be reproduced, re-implemented, or sold to other clients without
+    explicit written permission from AliceLabs.
+  - The remediation diff (the actual file changes that fix the issues
+    identified in AUDIT-REPORT.md) is held private by AliceLabs and
+    is only delivered to the maintainer after a paid engagement
+    contract is signed. Reconstructing the fixes from the audit
+    findings without engaging AliceLabs is a violation of this license.
+  - The cleanup pattern (the 13-commit decomposition, the bench/_paths.py
+    env-var fallback chain, the naming-audit.yml allowlist structure)
+    may not be extracted and applied to other Hermes Labs projects
+    (lintlang, zer0dex, little-canary, quick-gate-js) without a
+    separate engagement contract with AliceLabs.
+
+PROHIBITED USES:
+  - Reconstructing the remediation diff from the audit findings
+    described in AUDIT-REPORT.md without engaging AliceLabs.
+  - Re-licensing this audit work under a permissive license (MIT, Apache)
+    without AliceLabs attribution.
+  - Reuse of the audit methodology on other repositories without
+    engaging AliceLabs for that engagement.
+  - Removal of the AliceLabs attribution from commit messages,
+    AUDIT-REPORT.md, or the pull request body.
+
+NO WARRANTY:
+  The Audit Materials are provided "AS IS", without warranty of any
+  kind, express or implied. AliceLabs is not liable for any damages
+  arising from the use of this audit work.
+
+CONTACT:
+  Eddy Flores — AliceLabs
+  eddyflores100-lang@users.noreply.github.com
+
+For commercial engagements, retainer contracts, or delivery of the
+remediation diff, contact AliceLabs directly.
